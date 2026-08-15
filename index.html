@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoVida - Reciclagem e Meio Ambiente</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1>🌎 EcoVida</h1>
+        <p>Pequenas atitudes hoje, um planeta melhor amanhã.</p>
+        <a href="#reciclagem" class="btn">Descubra Como Ajudar</a>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#reciclagem">Reciclagem</a></li>
+        <li><a href="#descarte">Descarte</a></li>
+        <li><a href="#preservacao">Preservação</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+    </ul>
+</nav>
+
+<section id="reciclagem">
+    <h2>♻️ O que é Reciclagem?</h2>
+
+    <p>
+        A reciclagem é o processo de transformar materiais que seriam descartados em novos produtos.
+        Ela reduz a poluição, economiza recursos naturais e diminui a quantidade de resíduos enviados aos aterros sanitários.
+    </p>
+
+    <br>
+
+    <p>
+        Quando reciclamos papel, plástico, vidro e metal, ajudamos a preservar o meio ambiente e contribuímos para um futuro mais sustentável.
+    </p>
+</section>
+
+<section id="descarte">
+
+    <h2>🗑️ Como descartar corretamente?</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🔵 Azul</h3>
+            <p>Papel e papelão</p>
+        </div>
+
+        <div class="card">
+            <h3>🔴 Vermelho</h3>
+            <p>Plásticos</p>
+        </div>
+
+        <div class="card">
+            <h3>🟢 Verde</h3>
+            <p>Vidros</p>
+        </div>
+
+        <div class="card">
+            <h3>🟡 Amarelo</h3>
+            <p>Metais</p>
+        </div>
+
+        <div class="card">
+            <h3>🟤 Marrom</h3>
+            <p>Resíduos Orgânicos</p>
+        </div>
+
+        <div class="card">
+            <h3>⚫ Cinza</h3>
+            <p>Rejeitos não recicláveis</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="preservacao">
+
+    <h2>🌱 Como preservar o meio ambiente?</h2>
+
+    <ul>
+        <li>Economizar água.</li>
+        <li>Apagar luzes desnecessárias.</li>
+        <li>Separar corretamente os resíduos.</li>
+        <li>Utilizar menos plástico descartável.</li>
+        <li>Plantar árvores.</li>
+        <li>Utilizar bicicleta ou transporte coletivo.</li>
+        <li>Evitar desperdício de alimentos.</li>
+    </ul>
+
+</section>
+
+<section id="curiosidades">
+
+    <h2>📚 Curiosidades Ambientais</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🥤 Garrafa PET</h3>
+            <p>Pode levar mais de 400 anos para se decompor.</p>
+        </div>
+
+        <div class="card">
+            <h3>🥫 Alumínio</h3>
+            <p>Uma lata reciclada retorna ao mercado em cerca de 60 dias.</p>
+        </div>
+
+        <div class="card">
+            <h3>🇧🇷 Brasil</h3>
+            <p>É referência mundial na reciclagem de latas de alumínio.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>📊 Estatísticas</h2>
+
+    <div class="stats">
+
+        <div class="stat">
+            <h3 id="contador1">0</h3>
+            <p>% dos resíduos poderiam ser reciclados</p>
+        </div>
+
+        <div class="stat">
+            <h3 id="contador2">0</h3>
+            <p>% podem ser reaproveitados</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="quiz">
+
+    <h2>🎯 Quiz Ambiental</h2>
+
+    <p><strong>Qual é a cor da lixeira destinada ao vidro?</strong></p>
+
+    <br>
+
+    <button onclick="respostaErrada()">Azul</button>
+    <button onclick="respostaCorreta()">Verde</button>
+    <button onclick="respostaErrada()">Vermelha</button>
+
+    <p id="resultado"></p>
+
+</section>
+
+<section>
+
+    <h2>🧮 Calculadora Ambiental</h2>
+
+    <p>Quantas garrafas PET você recicla por mês?</p>
+
+    <br>
+
+    <input type="number" id="pet" placeholder="Digite a quantidade">
+
+    <button onclick="calcular()">Calcular</button>
+
+    <p id="calcResultado"></p>
+
+</section>
+
+<footer>
+    <h3>🌎 Projeto EcoVida</h3>
+    <p>Desenvolvido por Fael</p>
+    <p>Curso de Informática - 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
